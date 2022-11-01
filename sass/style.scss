@@ -1,0 +1,285 @@
+.boxxing {
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+
+    nav {
+        .logo {
+            .border {
+                background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+                /* Shadow Primary */
+
+                box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+            }
+        }
+    }
+
+}
+
+.body {
+    .static {
+        .card {
+            box-shadow: 0px 10px 20px #8cd4e1;
+
+            .number {
+                .boxer {
+                    background: linear-gradient(135deg, rgba(103, 140, 146, 0.2) 0%, rgba(158, 213, 222, 0.2) 100%), #678C92;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
+
+main {
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+
+    .row {
+        .worker {
+            box-shadow: 0px 10px 20px #8cd4e1;
+        }
+    }
+
+    .but {
+        button {
+            transition: all linear .3s;
+
+            &:hover {
+                background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+                color: white;
+            }
+        }
+    }
+}
+
+footer {
+    background: linear-gradient(84.81deg, rgba(72, 106, 111, 0.2) 0%, rgba(67, 151, 164, 0.2) 100%), #486A6F;
+}
+
+@media (max-width: 768px) {
+    .boxxing {
+        nav {
+            .menu {
+                display: none;
+            }
+
+            .logo {
+                width: 50%;
+            }
+
+            .button {
+                width: 50%;
+
+                button {
+                    width: 140px;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        header {
+            flex-direction: column;
+
+            .left {
+                width: 100%;
+                flex-direction: column;
+                padding: 15px 20px;
+                align-items: start;
+                min-height: 62vh;
+                img {
+                    position: absolute;
+                    width: 75%;
+                }
+
+                .crush {
+                    position: absolute;
+                    width: 43%;
+                    left: 52%;
+                    top: 48%;
+                }
+            }
+
+            .right {
+                width: 100%;
+                padding: 10px;
+                min-height: 60vh;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                .owner {
+                    font-size: 35px;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .lorem {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .body {
+        padding: 10px;
+        min-height: 90vh;
+
+        .nav {
+            justify-self: start;
+            align-items: flex-start;
+
+            h2 {
+                font-size: 18px;
+                text-align: start;
+            }
+
+            h1 {
+                font-size: 35px;
+            }
+        }
+
+        .static {
+            justify-content: center;
+            align-items: center;
+
+            .card {
+                width: 100%;
+                min-height: 10vh;
+                padding: 0;
+
+                .number {
+                    gap: 5px;
+                    width: 50%;
+                    padding: 0;
+
+                    .boxer {
+                        min-height: 8vh;
+                        width: 50%;
+                        padding: 0;
+
+                        img {
+                            width: 45%;
+                        }
+                    }
+
+                    .text {
+                        h2 {
+                            font-size: 12px;
+
+                        }
+
+                        h3 {
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .logos {
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+            min-height: 10vh;
+
+            img {
+                width: 20%;
+            }
+        }
+    }
+
+    main {
+        padding: 10px;
+
+        .lets-meet {
+            .naver {
+                padding-left: 22px;
+                justify-content: center;
+                align-items: start;
+
+                h2 {
+                    font-size: 18px;
+                }
+            }
+
+            .row {
+                flex-wrap: wrap;
+            }
+        }
+
+        .call {
+            min-height: 10vh;
+
+            .lefter {
+                font-size: xx-large;
+            }
+
+            .righter {
+                gap: 10px;
+
+                button {
+                    width: 70px;
+                    min-height: 50px;
+                }
+            }
+        }
+    }
+
+    footer {
+        min-height: 20vh;
+        flex-direction: column;
+        padding: 10px;
+
+        .footer-left {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .h1 {
+                width: 100%;
+            }
+
+            .ul {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                min-height: 20vh;
+                padding: 20px 0;
+                flex-direction: column-reverse;
+                padding-top: 50px;
+            }
+        }
+
+        .footer-right {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .uels {
+                justify-content: center;
+                align-items: center;
+                min-height: 30vh;
+                width: 100%;
+            }
+
+            .touch {
+                width: 100%;
+                text-align: center;
+                min-height: 10vh;
+
+                li {
+                    width: 100%;
+                }
+
+                .li {
+                    margin-top: -2px;
+                }
+            }
+        }
+    }
+}

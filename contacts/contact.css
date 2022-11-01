@@ -1,0 +1,170 @@
+nav .logo .border {
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+}
+
+.button button {
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    border-radius: 5px;
+}
+
+.button button:hover {
+     background: #9ce5f0;
+    color: white;
+}
+
+form .form {
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+border-radius: 5px;
+}
+
+footer {
+    background: linear-gradient(84.81deg, rgba(72, 106, 111, 0.2) 0%, rgba(67, 151, 164, 0.2) 100%), #486A6F;
+}
+
+@media (max-width: 768px) {
+    .boxxing {
+        background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+    }
+    .menu {
+                display: none !important;
+
+        }
+
+        nav .menu a {
+                display: none;
+        }
+
+        .logo {
+                width: 50% !important;
+        }
+
+        .button {
+                width: 50% !important;
+        }
+
+        .button button {
+                width: 140px;
+                font-size: 16px;
+        }
+
+        .joker {
+                display: none;
+
+        }
+         form {
+                flex-direction: column;
+                padding: 10px;
+        }
+        .phone {
+            background-color: #fff;
+        }
+        form .form_left {
+                width: 100% !important;
+                padding: 0 !important;
+                min-height: 80vh;
+                gap: 40px;
+        }
+        .form_left .touch {
+                justify-content: start;
+                align-items: start;
+        }
+        .form_left .icon-box .icon {
+                width: 100% !important;
+        }
+        .form_right {
+                width: 100% !important;
+        }
+        .form_right .form {
+                width: 100%;
+                padding: 20px 20px;
+        }
+        .form h2 {
+                font-size: 20px;
+        }
+
+        .form .names_email {
+                flex-direction: column;
+        }
+        form .form input {
+                width: 100% !important;
+        }
+        .form .fname {
+                width: 100%;
+                justify-content: center;
+        }
+
+        .form .scrib {
+                padding: 0 !important;
+                margin-top: 25px;
+        }
+
+        .form .scrib input {
+                width: 100%;
+        }
+
+        .textarea {
+                width: 100% !important;
+                padding: 0 !important;
+                margin-top: 25px;
+        }
+        .textarea textarea {
+                width: 100%;
+        }
+
+    footer {
+                min-height: 20vh !important;
+                flex-direction: column;
+                padding: 10px;
+        }
+
+        .footer-left {
+                width: 100% !important;
+                flex-direction: column !important;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+        }       
+                .footer-left .h1 {
+                        width: 100% !important;
+                }
+
+               .footer-left .ul {
+                        width: 100% !important;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 30px !important;
+                        min-height: 20vh !important;
+                        padding: 20px 0;
+                        flex-direction: column-reverse;
+                        padding-top: 50px;
+                }
+
+        .footer-right {
+                width: 100% !important;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+        }
+
+
+        .footer-right .uels {
+                justify-content: center;
+                align-items: center;
+                min-height: 30vh !important;
+                width: 100% !important;
+        }
+
+        .touch {
+                width: 100% !important;
+                text-align: center;
+                min-height: 10vh !important;
+        }
+
+        .touch li {
+                width: 100% !important;
+        }
+        .touch  .li {
+                 margin-top: -2px;
+         }
+}

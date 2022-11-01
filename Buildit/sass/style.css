@@ -1,0 +1,369 @@
+.boxxing .box {
+        width: 30px;
+        min-height: 30px;
+        background: #000;
+}
+
+.boxxing {
+
+        background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+}
+
+.button button {
+        background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+        border-radius: 5px;
+}
+
+.borderser {
+        background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+        /* Shadow Primary */
+
+        box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+}
+
+.btn button:hover {
+        background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+        /* Shadow Primary */
+
+        box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+}
+
+.listing .car {
+        background: linear-gradient(135deg, rgba(103, 140, 146, 0.2) 0%, rgba(158, 213, 222, 0.2) 100%), #678C92;
+}
+
+.reputation button {
+        background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+        box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+        border-radius: 5px;
+}
+
+.lable_left button {
+        background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+        /* Shadow main */
+
+        box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+        border-radius: 5px;
+}
+
+.form_right .form {
+        background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+        border-radius: 5px;
+}
+
+footer {
+        background: linear-gradient(84.81deg, rgba(72, 106, 111, 0.2) 0%, rgba(67, 151, 164, 0.2) 100%), #486A6F;
+}
+
+@media (max-width: 768px) {
+
+        .menu {
+                display: none !important;
+
+        }
+
+        nav .menu a {
+                display: none;
+        }
+
+        .logo {
+                width: 50% !important;
+        }
+
+        .button {
+                width: 50% !important;
+        }
+
+        .button button {
+                width: 140px;
+                font-size: 16px;
+        }
+
+        .joker {
+                display: none;
+
+        }
+
+        header {
+                flex-direction: column;
+                padding: 10px;
+        }
+
+        header .left {
+                width: 100%;
+                padding: 0;
+                min-height: 40vh;
+        }
+
+        header .left .dev {
+                font-size: 40px;
+                width: 100%;
+        }
+
+        header .left .forward {
+                width: 100%;
+                font-size: 18px;
+        }
+
+        header .left .btn {
+                width: 100%;
+        }
+
+        header .right {
+                width: 100%;
+                flex-wrap: wrap;
+                padding: 0;
+                margin-top: 40px;
+        }
+
+        header .right .img {
+                width: 100% !important;
+                flex-wrap: wrap;
+        }
+
+        header .right .img img {
+                width: 100%;
+                max-width: 170px;
+        }
+
+        header .right .png {
+                width: 100%;
+                flex-wrap: wrap;
+        }
+
+        header .right .png img {
+                width: 170px;
+        }
+
+        .inovative {
+                padding: 10px;
+        }
+
+        .inovative .exec {
+                justify-content: center;
+                min-height: 10vh;
+                width: 100%;
+        }
+
+        .inovative .exec h2 {
+                font-size: 35px;
+        }
+
+        .inovative .cards {
+                width: 100%;
+                /* flex-wrap: wrap !important; */
+                flex-wrap: wrap;
+                min-height: 80vh;
+        }
+
+        .listing {
+                width: 300px !important;
+        }
+
+        .logos {
+                padding: 30px;
+                flex-wrap: wrap;
+                gap: 90px;
+        }
+
+        .reputation {
+                flex-direction: column;
+                padding: 10px;
+        }
+
+        .reputation .rep_left {
+                width: 350px;
+                margin: 0 auto;
+                min-height: 50vh;
+        }
+
+        .reputation .rep_right {
+                width: 100%;
+                padding: 10px;
+        }
+
+        .rep_right .dolor {
+                font-size: 16px;
+                width: 100%;
+        }
+
+        .Available {
+                flex-direction: column;
+                padding: 10px;
+        }
+
+        .Available .lable_left {
+                width: 100%;
+                padding: 10px !important;
+                min-height: 75vh;
+        }
+
+        .lable_left h2 {
+                font-size: 18px;
+        }
+
+        .lable_left h1 {
+                font-size: 40px;
+        }
+
+        .lable_left .adip {
+                font-size: 16px;
+        }
+
+        .lable_right {
+                width: 100% !important;
+                gap: 30px;
+                min-height: 30vh;
+        }
+
+        .lable_right .photos {
+                flex-wrap: wrap;
+                min-height: 35vh;
+        }
+
+        .lable_right .inset-img {
+                flex-wrap: wrap;
+                min-height: 35vh;
+        }
+
+        .lable_right img {
+                max-width: 40%;
+        }
+
+        .socials {
+                padding: 15px 10px;
+        }
+
+        .socials .text {
+                min-height: 20vh;
+        }
+
+        .socials .text h2 {
+                font-size: 18px;
+        }
+
+        .socials .text h1 {
+                font-size: 40px;
+        }
+
+        .img-box .img1 {
+                flex-wrap: wrap;
+        }
+
+        .img-box .img2 {
+                flex-wrap: wrap;
+        }
+
+        form {
+                flex-direction: column;
+                padding: 10px;
+        }
+        form .form_left {
+                width: 100% !important;
+                padding: 0 !important;
+                min-height: 80vh;
+                gap: 40px;
+        }
+        .form_left .touch {
+                justify-content: start;
+                align-items: start;
+        }
+        .form_left .icon-box .icon {
+                width: 100% !important;
+        }
+        .form_right {
+                width: 100% !important;
+        }
+        .form_right .form {
+                width: 100%;
+                padding: 20px 20px;
+        }
+        .form h2 {
+                font-size: 20px;
+        }
+
+        .form .names_email {
+                flex-direction: column;
+        }
+        form .form input {
+                width: 100% !important;
+        }
+        .form .fname {
+                width: 100%;
+                justify-content: center;
+        }
+
+        .form .scrib {
+                padding: 0 !important;
+                margin-top: 25px;
+        }
+
+        .form .scrib input {
+                width: 100%;
+        }
+
+        .textarea {
+                width: 100% !important;
+                padding: 0 !important;
+                margin-top: 25px;
+        }
+        .textarea textarea {
+                width: 100%;
+        }
+
+        footer {
+                min-height: 20vh !important;
+                flex-direction: column;
+                padding: 10px;
+        }
+
+        .footer-left {
+                width: 100% !important;
+                flex-direction: column !important;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+        }       
+                .footer-left .h1 {
+                        width: 100% !important;
+                }
+
+               .footer-left .ul {
+                        width: 100% !important;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 30px !important;
+                        min-height: 20vh !important;
+                        padding: 20px 0;
+                        flex-direction: column-reverse;
+                        padding-top: 50px;
+                }
+
+        .footer-right {
+                width: 100% !important;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+        }
+
+
+        .footer-right .uels {
+                justify-content: center;
+                align-items: center;
+                min-height: 30vh !important;
+                width: 100% !important;
+        }
+
+        .touch {
+                width: 100% !important;
+                text-align: center;
+                min-height: 10vh !important;
+        }
+
+        .touch li {
+                width: 100% !important;
+        }
+        .touch  .li {
+                 margin-top: -2px;
+         }
+}
