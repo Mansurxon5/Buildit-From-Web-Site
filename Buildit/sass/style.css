@@ -5,8 +5,7 @@
 }
 
 .boxxing {
-
-        background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+        background: url(./Buildit/image/6.svg) no-repeat right, linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
 
 .button button {
@@ -173,6 +172,7 @@ footer {
 
         .reputation .rep_left {
                 width: 350px;
+                max-width: 100%;
                 margin: 0 auto;
                 min-height: 50vh;
         }
