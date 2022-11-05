@@ -9,27 +9,28 @@
     <link rel="stylesheet" href="Buildit/sass/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
-    <style>
-        .boxxing {
-            background: url(./Buildit/image/6.svg) no-repeat right, linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
-            z-index: 10;
-        }
+<style>
+    .boxxing {
+        background: url(./Buildit/image/6.svg) no-repeat right, linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+        z-index: 10;
+    }
 
-        @media (max-width: 576px) {
-            .boxxing {
-                background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%) no-repeat center;
-            } 
+    @media (max-width: 576px) {
+        .boxxing {
+            background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%) no-repeat center;
         }
-    </style>
+    }
+</style>
+
 <body>
     <div class="boxxing w-full min-h-[150vh] overflow-hidden">
-        <nav class=" w-full min-h-[18vh]  flex z-20 relative">
+        <nav class="w-full min-h-[18vh]  flex z-20 relative">
             <div class="logo w-[28%] min-h-[12vh]  text-[#486A6F] flex justify-center items-center gap-3 text-[30px]">
                 <div class="borderser w-[60px] min-h-[60px] inline-flex rounded-full"></div>
                 <a href="#" class="hover:text-blue-600 duration-[.3s]">Buildit</a>
             </div>
             <div class="menu w-[50%]  min-h-[12vh]  flex justify-evenly items-center">
-                <a href="/index.html"
+                <a href="/about.html"
                     class="text-[18px] text-[#678C92] relative content-none before:absolute before:w-0 before:left-0 before:top-full before:bg-black before:h-[2px] before:duration-500 hover:text-black hover:before:w-full hover:before:rounded-full ">About</a>
                 <a href="/services.html"
                     class="text-[18px] text-[#678C92] relative content-none before:absolute before:w-0 before:left-0 before:top-full before:bg-black before:h-[2px] before:duration-500 hover:text-black hover:before:w-full hover:before:rounded-full ">Services
@@ -54,11 +55,11 @@
                     Forward-thinking real estate developer, owner and investor with a reputation
                 </div>
                 <div class="btn w-[80%] min-h-[10vh] flex gap-5">
-                    <button
-                        class=" w-[200px] min-h-[55px] bg-[#C6DBFF] font-bold text-[#486A6F] hover:text-white duration-500 rounded-md">Services</button>
-                    <button
-                        class=" w-[200px] min-h-[55px] bg-[#C6DBFF] font-bold text-[#486A6F] hover:text-white duration-500 rounded-md">About
-                        the company</button>
+                    <a href="./services.html"
+                        class="flex justify-center items-center w-[200px] min-h-[55px] bg-[#C6DBFF] font-bold text-[#486A6F] hover:text-white duration-500 rounded-md">Services</a>
+                    <a href="./about.html"
+                        class="flex justify-center items-center w-[200px] min-h-[55px] bg-[#C6DBFF] font-bold text-[#486A6F] hover:text-white duration-500 rounded-md">About
+                        the company</a>
                 </div>
             </div>
             <div class="right w-[50%] min-h-[82vh]  flex flex-col justify-center p-[60px] gap-6 pb-[50px] z-20">
@@ -119,8 +120,8 @@
         </div>
         <div class="cursher w-[85%] min-h-[2px] bg-[#678C92] mx-auto mb-[30px]"></div>
         <div class="reputation w-full min-h-[75vh] flex">
-            <div class="rep_left w-[50%] min-h-[75vh] flex justify-center items-center"><img src="./Buildit/image/21.png"
-                    alt="err"></div>
+            <div class="rep_left w-[50%] min-h-[75vh] flex justify-center items-center"><img
+                    src="./Buildit/image/21.png" alt="err"></div>
             <div class="rep_right w-[50%] min-h-[75vh] flex flex-col justify-center gap-4 ">
                 <h3 class="text-[#5BCCDE] text-[18px]">About us</h3>
                 <div class="with text-[#486A6F] text-[40px] font-bold">Owner and investor with a reputation</div>
@@ -133,8 +134,8 @@
                     viverra vel ultrices in,
                     congue sed ex.
                 </div>
-                <button
-                    class="w-[200px] min-h-[52px] text-white font-bold cursor-pointer duration-500 hover:bg-black">Explore</button>
+                <a href="./about.html"
+                    class="flex justify-center items-center w-[200px] min-h-[52px] text-white font-bold cursor-pointer duration-500 hover:bg-black">Explore</a>
             </div>
         </div>
     </div>
@@ -153,8 +154,8 @@
                 vel ultrices in,
                 congue sed ex.
             </div>
-            <button
-                class="w-[200px] min-h-[55px] mt-[30px] text-white text-[18px] hover:bg-[#dae8fe] hover:text-blue-700 duration-[.3s] font-bold">Explore</button>
+            <a href="./project.html#our-project"
+                class="flex justify-center items-center w-[200px] min-h-[55px] mt-[30px] text-white text-[18px] hover:bg-[#dae8fe] hover:text-blue-700 duration-[.3s] font-bold">Explore</a>
         </div>
         <div class="lable_right w-[50%] min-h-screen flex flex-col justify-center">
             <div class="Buildit/photos w-full min-h-[40vh] flex justify-center gap-8 items-center">
@@ -209,7 +210,8 @@
                     </div>
                     <div class="tel">
                         <h3 class="text-[#486A6F] ">Email</h3>
-                        <a href="#" class="text-[#486A6F] font-bold text-[20px]">sales@buildit.site</a>
+                        <a href="mailto: sales@buildit.site"
+                            class="text-[#486A6F] font-bold text-[20px]">sales@buildit.site</a>
                     </div>
                 </div>
                 <div class="icon w-[70%] min-h-[14vh]  flex items-center gap-6">
@@ -248,8 +250,8 @@
                     <h2 class="text-[#678C92] ">Message</h2>
                     <textarea name="text"
                         class=" 
-                        p-[20px]  resize-none bg-transparent rounded-md border-[1px] border-[#486A6F] w-[391px] h-[130px]"
-                        cols="30" rows="10"></textarea>
+                        p-[20px]  resize-none bg-transparent rounded-md border-[1px] border-[#486A6F] w-[391px] h-[130px]" cols="30"
+                        rows="10"></textarea>
                 </div>
                 <div class="submit w-full min-h-[10vh] flex justify-center items-center">
                     <input type="submit" value="Send message"
@@ -303,8 +305,15 @@
                 <ul class="text-white text-[20px] flex flex-col gap-2">
                     <li class="cursor-auto">Get in touch</li>
                     <li class="w-[70%] cursor-auto">60 Manor Station St. Fairport, NY 14450</li>
-                    <li class="li w-[70%] mt-[60px] cursor-pointer duration-[.3s] hover:text-red-300">708-790-0000
-                        sales@buildit.site</li>
+                    <li>
+                        <a href="mailto: sales@buildit.site"
+                            class="li w-[70%] mt-[60px] cursor-pointer duration-[.3s] hover:text-red-300">
+                            sales@buildit.site</a>
+                        <br>
+                        <a href="tel:708-790-0000"
+                            class="li w-[70%] mt-[60px] cursor-pointer duration-[.3s] hover:text-red-300">
+                            708-790-0000</a>
+                    </li>
                 </ul>
             </div>
         </div>
